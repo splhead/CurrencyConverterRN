@@ -16,10 +16,8 @@ const App = () => {
     <View style={styles.container}>
       <Text style={styles.title}>Conversor de Moedas</Text>
       <View style={styles.row}>
-        <Text>inverter</Text>
-        <Switch value={inverter} onChange={() => setInverter(!inverter)} />
         <Text style={styles.highlight}>Real</Text>
-        <Text> para </Text>
+        <Switch value={inverter} onChange={() => setInverter(!inverter)} />
         <Text style={styles.highlight}>Dólar</Text>
       </View>
       <Input
